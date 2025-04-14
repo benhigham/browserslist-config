@@ -33,9 +33,7 @@ Or add to your `package.json`:
 
 ```json
 {
-  "browserslist": [
-    "extends @benhigham/browserslist-config"
-  ]
+  "browserslist": ["extends @benhigham/browserslist-config"]
 }
 ```
 
@@ -51,9 +49,7 @@ Or in your `package.json`:
 
 ```json
 {
-  "browserslist": [
-    "extends @benhigham/browserslist-config/node"
-  ]
+  "browserslist": ["extends @benhigham/browserslist-config/node"]
 }
 ```
 
