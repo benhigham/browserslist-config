@@ -1,0 +1,67 @@
+{
+  "name": "@benhigham/browserslist-config",
+  "version": "0.0.0",
+  "description": "My personal Browserslist configuration.",
+  "license": "MIT",
+  "homepage": "https://github.com/benhigham/browserslist-config#readme",
+  "bugs": {
+    "url": "https://github.com/benhigham/browserslist-config/issues/new"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benhigham/browserslist-config.git"
+  },
+  "funding": "https://github.com/sponsors/benhigham",
+  "author": {
+    "name": "Ben Higham",
+    "url": "https://benhigham.com"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js",
+    "./node": "./src/node.js"
+  },
+  "sideEffects": false,
+  "engines": {
+    "node": "^18.20.0 || ^20.10.0 || >=21.0.0"
+  },
+  "packageManager": "pnpm@10.8.0",
+  "scripts": {
+    "browserslist:supported": "node ./scripts/supported.js",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "changeset": "changeset",
+    "changeset:status": "changeset status",
+    "version": "changeset version",
+    "release": "changeset publish"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "browserslist",
+    "browserslist-config",
+    "browsers",
+    "compatibility",
+    "browser-support",
+    "frontend",
+    "targets",
+    "cross-browser",
+    "postcss",
+    "autoprefixer",
+    "babel",
+    "web",
+    "caniuse",
+    "preset"
+  ],
+  "devDependencies": {
+    "@benhigham/commitlint-config": "^0.1.2",
+    "@benhigham/prettier-config": "^0.1.0",
+    "@changesets/changelog-github": "^0.5.1",
+    "@changesets/cli": "^2.28.1",
+    "@commitlint/cli": "^19.8.0",
+    "browserslist": "^4.24.4",
+    "lefthook": "^1.11.9",
+    "prettier": "^3.5.3"
+  }
+}
