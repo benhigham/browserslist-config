@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/@benhigham/browserslist-config.svg)](https://www.npmjs.com/package/@benhigham/browserslist-config)
 [![License](https://img.shields.io/github/license/benhigham/browserslist-config)](LICENSE.md)
 
-My personal shareable [Browserslist](https://github.com/browserslist/browserslist) configuration for modern web projects.
+My personal [Browserslist](https://github.com/browserslist/browserslist) configurations for modern web and Node.js projects.
 
 ## Installation
 
