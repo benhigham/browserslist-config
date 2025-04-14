@@ -1,6 +1,6 @@
 {
   "name": "@benhigham/browserslist-config",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "My personal Browserslist configuration.",
   "license": "MIT",
   "homepage": "https://github.com/benhigham/browserslist-config#readme",
