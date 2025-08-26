@@ -25,7 +25,7 @@
   "engines": {
     "node": "^18.20.0 || ^20.19.0 || >=22.15.0"
   },
-  "packageManager": "pnpm@10.10.0",
+  "packageManager": "pnpm@10.15.0",
   "scripts": {
     "browserslist:supported": "node ./scripts/supported.js",
     "format": "prettier --write .",
@@ -58,10 +58,10 @@
     "@benhigham/commitlint-config": "^0.1.3",
     "@benhigham/prettier-config": "^0.1.1",
     "@changesets/changelog-github": "^0.5.1",
-    "@changesets/cli": "^2.29.4",
+    "@changesets/cli": "^2.29.6",
     "@commitlint/cli": "^19.8.1",
-    "browserslist": "^4.24.5",
-    "lefthook": "^1.11.13",
-    "prettier": "^3.5.3"
+    "browserslist": "^4.25.3",
+    "lefthook": "^1.12.3",
+    "prettier": "^3.6.2"
   }
 }
