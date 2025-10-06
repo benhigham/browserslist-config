@@ -59,7 +59,7 @@
     "@benhigham/prettier-config": "^0.1.1",
     "@changesets/changelog-github": "^0.5.1",
     "@changesets/cli": "^2.29.6",
-    "@commitlint/cli": "^19.8.1",
+    "@commitlint/cli": "^20.1.0",
     "browserslist": "^4.25.3",
     "lefthook": "^1.12.3",
     "prettier": "^3.6.2"
