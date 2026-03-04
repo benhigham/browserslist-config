@@ -61,7 +61,7 @@
     "@changesets/cli": "^2.29.6",
     "@commitlint/cli": "^19.8.1",
     "browserslist": "^4.25.3",
-    "lefthook": "^1.12.3",
+    "lefthook": "^2.0.3",
     "prettier": "^3.6.2"
   }
 }
