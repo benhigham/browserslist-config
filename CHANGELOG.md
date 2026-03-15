@@ -1,5 +1,11 @@
 # @benhigham/browserslist-config
 
+## 1.0.0
+
+### Major Changes
+
+- [#51](https://github.com/benhigham/browserslist-config/pull/51) [`f6a58ed`](https://github.com/benhigham/browserslist-config/commit/f6a58edf7e815517e10b36635bfeaa36996537e6) Thanks [@benhigham](https://github.com/benhigham)! - - Drop Node.js 18 and 20 support (minimum is now >=22)
+
 ## 0.1.1
 
 ### Patch Changes
